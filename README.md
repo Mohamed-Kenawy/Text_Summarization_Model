@@ -7,7 +7,8 @@ Text Summarization with T5 This project implements an abstractive text summariza
 The project uses the **CNN/DailyMail dataset**:  
 - `train.csv` → Training articles & summaries  
 - `validation.csv` → Validation set  
-- `test.csv` → Test set  
+- `test.csv` → Test set
+- Data link: https://www.kaggle.com/datasets/gowrishankarp/newspaper-text-summarization-cnn-dailymail
 
 ## Preprocessing Steps:  
 - Keep only essential columns: `article`, `highlights`  
@@ -31,5 +32,5 @@ The project uses the **CNN/DailyMail dataset**:
 
 ## 📥 Clone Repository  
 ```bash
-git clone https://github.com/Mohamed-Kenawy/Text_Summarization_Model.git
-cd Text_Summarization_Model
+git clone https://github.com/Mohamed-Kenawy/Text_Summarization_pipeline.git
+cd Text_Summarization_pipeline
