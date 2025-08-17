@@ -10,7 +10,7 @@ The project uses the **CNN/DailyMail dataset**:
 - `test.csv` → Test set
 - Data link: https://www.kaggle.com/datasets/gowrishankarp/newspaper-text-summarization-cnn-dailymail
 
-## Preprocessing Steps:  
+## 📝Preprocessing
 - Keep only essential columns: `article`, `highlights`  
 - Add prefix `"summarize:"` to input text (T5 requirement)  
 - Tokenize inputs and summaries  
